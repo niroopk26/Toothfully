@@ -1,0 +1,5 @@
+{
+  "name": "Toothfully Yours Dental Care",
+  "description": "Modern, professional dental clinic website for Toothfully Yours Dental Care in Malleshpalya, Bengaluru, led by Dr. Marilyn.",
+  "requestFramePermissions": ["geolocation"]
+}
