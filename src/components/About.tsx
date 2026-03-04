@@ -21,7 +21,7 @@ export default function About() {
         >
           <div className="relative rounded-3xl overflow-hidden shadow-xl">
             <img 
-              src="https://picsum.photos/seed/dentist-dr/800/800" 
+              src="https://infinitesmiles.in/assets/images/about/dental-clinic-kolhapur.jpg" 
               alt="Dr. Marilyn" 
               className="w-full h-auto object-cover"
               referrerPolicy="no-referrer"

@@ -91,7 +91,7 @@ export default function Reviews() {
         
         <div className="mt-16 text-center">
           <a 
-            href="https://www.google.com/maps/place/Toothfully+Yours+Dental+Care/@12.9789,77.6747,17z/data=!4m8!3m7!1s0x3bae115000000001:0x3bae115000000001!8m2!3d12.9789!4d77.6747!9m1!1b1!16s%2Fg%2F11f_x_x_x_x" 
+            href="https://www.google.com/search?sca_esv=0c0ded2c55dfde36&biw=1536&bih=742&sxsrf=ANbL-n4sKcc9DVMtUrIkSHSQAKOD_axuHQ:1772636751403&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOaDVKqFmxmENOQP-kNb-nLCeSMUUDB36RuH4x4FKi-elGKJ4NvbPPEj_gDMTsi1qJsXm3fgC_-B5sgLXE-cBqI0t-FRiN_qthYMzJQdDqLrNJmNhHw%3D%3D&q=Toothfully+Yours+Dental+Care+Reviews&sa=X&ved=2ahUKEwiik4i_woaTAxX8bGwGHZj3MSkQ0bkNegQIJxAF&cshid=1772636760739482" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 text-clinic-teal font-bold hover:underline"

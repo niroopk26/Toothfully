@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 
 export default function Gallery() {
   const images = [
-    { src: "https://picsum.photos/seed/dental-clinic-1/800/600", category: "Clinic Photos", title: "Reception Area" },
-    { src: "https://picsum.photos/seed/dental-clinic-2/800/600", category: "Equipment", title: "Modern Dental Chair" },
-    { src: "https://picsum.photos/seed/dental-clinic-3/800/600", category: "Smiling Patients", title: "Happy Smiles" },
-    { src: "https://picsum.photos/seed/dental-clinic-4/800/600", category: "Clinic Photos", title: "Treatment Room" },
-    { src: "https://picsum.photos/seed/dental-clinic-5/800/600", category: "Equipment", title: "Advanced X-Ray" },
-    { src: "https://picsum.photos/seed/dental-clinic-6/800/600", category: "Before & After", title: "Smile Transformation" },
+    { src: "https://hjtdesign.com/wp-content/uploads/2020/12/bigstock-Russia-Novosibirsk-June-279323659.jpg", category: "Clinic Photos", title: "Reception Area" },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkzE27ztDEEbLJ0_elavpdYOFKUfWUcmqh7w&s", category: "Equipment", title: "Modern Dental Chair" },
+    { src: "https://cdn.sanity.io/images/0vv8moc6/dpr/6b68c310580075379bfe42acfda83030ab3b1ed3-2000x1333.jpg?fit=crop&auto=format", category: "Smiling Patients", title: "Happy Smiles" },
+    { src: "https://media.istockphoto.com/id/1419156177/photo/modern-dental-office.jpg?s=612x612&w=0&k=20&c=WaoKv9FOqlpRanQHO6ynP762QPyqAjH8PADbnmRP0KE=", category: "Clinic Photos", title: "Treatment Room" },
+    { src: "https://s16736.pcdn.co/wp-content/uploads/sites/205/2016/07/Dental-Xray.jpg.optimal.jpg", category: "Equipment", title: "Advanced X-Ray" },
+    { src: "https://dental-clinic-delhi.com/wp-content/uploads/2022/10/smile-makeover.jpg", category: "Before & After", title: "Smile Transformation" },
   ];
 
   return (

@@ -1,11 +1,7 @@
 import { motion } from "motion/react";
 import { Phone, Calendar, Star, CheckCircle } from "lucide-react";
 
-interface HeroProps {
-  onBookClick: () => void;
-}
-
-export default function Hero({ onBookClick }: HeroProps) {
+export default function Hero() {
   const highlights = [
     { icon: <CheckCircle className="text-emerald-500" size={20} />, text: "250+ Happy Patients" },
     { icon: <Star className="text-amber-400 fill-amber-400" size={20} />, text: "5 Star Google Reviews" },
@@ -44,10 +40,15 @@ export default function Hero({ onBookClick }: HeroProps) {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <button onClick={onBookClick} className="btn-primary flex items-center justify-center space-x-2">
+            <a 
+              href="https://www.practo.com/bangalore/clinic/toothfully-yours-dental-care-malleshpalya/doctors?utm_source=google&utm_medium=reserve_with_google&utm_campaign=establishment_feed&rwg_token=AFd1xnH-ChZ6Zfej1iNECBL61pdEA3Zq1oTF9l_MkhdqvoADhwfELs-IF84eoJGL9vY0YP4nrAft-u0tMuL30R2nAfkC2YnYAA%3D%3D" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary flex items-center justify-center space-x-2"
+            >
               <Calendar size={20} />
               <span>Book Appointment</span>
-            </button>
+            </a>
             <a href="tel:+919901767470" className="btn-secondary flex items-center justify-center space-x-2">
               <Phone size={20} />
               <span>Call Now</span>
@@ -72,7 +73,7 @@ export default function Hero({ onBookClick }: HeroProps) {
         >
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
             <img 
-              src="https://picsum.photos/seed/dentist-clinic/800/1000" 
+              src="https://fermeliadental.com/wp-content/uploads/2019/05/benefits-of-regular-dental-visits.jpeg" 
               alt="Modern Dental Clinic" 
               className="w-full h-auto object-cover"
               referrerPolicy="no-referrer"

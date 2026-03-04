@@ -2,11 +2,7 @@ import { Phone, MessageCircle, Calendar } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { useState, useEffect } from "react";
 
-interface FloatingActionsProps {
-  onBookClick: () => void;
-}
-
-export default function FloatingActions({ onBookClick }: FloatingActionsProps) {
+export default function FloatingActions() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -49,16 +45,18 @@ export default function FloatingActions({ onBookClick }: FloatingActionsProps) {
             </motion.a>
 
             {/* Book Button */}
-            <motion.button
+            <motion.a
               initial={{ opacity: 0, scale: 0, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0, y: 20 }}
-              onClick={onBookClick}
+              href="https://www.practo.com/bangalore/clinic/toothfully-yours-dental-care-malleshpalya/doctors?utm_source=google&utm_medium=reserve_with_google&utm_campaign=establishment_feed&rwg_token=AFd1xnH-ChZ6Zfej1iNECBL61pdEA3Zq1oTF9l_MkhdqvoADhwfELs-IF84eoJGL9vY0YP4nrAft-u0tMuL30R2nAfkC2YnYAA%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-14 h-14 bg-white text-clinic-teal rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform border-2 border-clinic-teal"
               title="Book Appointment"
             >
               <Calendar size={28} />
-            </motion.button>
+            </motion.a>
           </>
         )}
       </AnimatePresence>
